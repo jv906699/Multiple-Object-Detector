@@ -1,0 +1,6 @@
+train: "C:\Users\jverm\Documents\Final Project\dataset\images\train"
+val: "C:\Users\jverm\Documents\Final Project\dataset\images\val"
+test: "C:\Users\jverm\Documents\Final Project\dataset\images\test"
+
+nc: 11
+names: ['person', 'laptop', 'cell phone', 'cup', 'bottle', 'chair', 'book', 'remote', 'dining table', 'handbag', 'clock']
