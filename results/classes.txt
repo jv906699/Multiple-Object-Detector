@@ -1,0 +1,3 @@
+clock
+person
+glass
