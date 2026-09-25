@@ -22,3 +22,45 @@
   &nbsp;&nbsp;
   <kbd>REAL-TIME AI</kbd>
 </p>
+
+# 🎯 Project Overview
+
+**Multiple Object Detector** is a real-time multi-class object detection system built with **YOLOv12 and PyTorch**. The project covers the complete computer-vision workflow — from dataset preparation and model training to evaluation and real-time inference.
+
+The system was developed to detect **10 object classes** using a custom dataset and provides trained model weights together with a GUI-based inference application for visualizing detections.
+
+---
+
+# 📌 Key Highlights
+
+| Category | Details |
+|---|---|
+| 🤖 Detection Model | YOLOv12 |
+| 🧠 Deep Learning Framework | PyTorch |
+| 🎯 Detection Type | Multi-Class Object Detection |
+| 🏷️ Object Classes | 10 |
+| 🖼️ Dataset | 17,542 images |
+| 🔥 Training | 50 epochs |
+| 📈 mAP@0.5 | 93.8% |
+| 📊 mAP@0.5:0.95 | 57.8% |
+| ⚡ Inference | Real-Time Detection |
+| 🖥️ Interface | GUI-Based Inference |
+| 💾 Model Output | Trained YOLO Weights |
+
+---
+# 🔄 End-to-End Workflow
+
+```text
+DATASET
+   ↓
+DATASET PREPARATION
+   ↓
+YOLOv12 TRAINING
+   ↓
+MODEL EVALUATION
+   ↓
+TRAINED WEIGHTS
+   ↓
+REAL-TIME INFERENCE
+   ↓
+GUI VISUALIZATION
