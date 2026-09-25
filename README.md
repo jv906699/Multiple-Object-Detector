@@ -23,34 +23,64 @@
   <kbd>REAL-TIME AI</kbd>
 </p>
 
-# 🎯 Project Overview
+🎯 Project Overview
 
-**Multiple Object Detector** is a real-time multi-class object detection system built with **YOLOv12 and PyTorch**. The project covers the complete computer-vision workflow — from dataset preparation and model training to evaluation and real-time inference.
+Multiple Object Detector is a real-time multi-class object detection system built with YOLOv12 and PyTorch. The project covers the complete computer-vision workflow — from dataset preparation and model training to evaluation and real-time inference.
 
-The system was developed to detect **10 object classes** using a custom dataset and provides trained model weights together with a GUI-based inference application for visualizing detections.
+The system was developed to detect 10 object classes using a custom dataset and provides trained model weights together with a GUI-based inference application for visualizing detections.
 
----
+📌 Key Highlights
 
-# 📌 Key Highlights
+Category
 
-| Category | Details |
-|---|---|
-| 🤖 Detection Model | YOLOv12 |
-| 🧠 Deep Learning Framework | PyTorch |
-| 🎯 Detection Type | Multi-Class Object Detection |
-| 🏷️ Object Classes | 10 |
-| 🖼️ Dataset | 17,542 images |
-| 🔥 Training | 50 epochs |
-| 📈 mAP@0.5 | 93.8% |
-| 📊 mAP@0.5:0.95 | 57.8% |
-| ⚡ Inference | Real-Time Detection |
-| 🖥️ Interface | GUI-Based Inference |
-| 💾 Model Output | Trained YOLO Weights |
+Details
 
----
-# 🔄 End-to-End Workflow
+🤖 Detection Model
 
-```text
+YOLOv12
+
+🧠 Deep Learning Framework
+
+PyTorch
+
+🎯 Detection Type
+
+Multi-Class Object Detection
+
+🏷️ Object Classes
+
+10
+
+🖼️ Dataset
+
+17,542 images
+
+🔥 Training
+
+50 epochs
+
+📈 mAP@0.5
+
+93.8%
+
+📊 mAP@0.5:0.95
+
+57.8%
+
+⚡ Inference
+
+Real-Time Detection
+
+🖥️ Interface
+
+GUI-Based Inference
+
+💾 Model Output
+
+Trained YOLO Weights
+
+🔄 End-to-End Workflow
+
 DATASET
    ↓
 DATASET PREPARATION
@@ -65,7 +95,13 @@ REAL-TIME INFERENCE
    ↓
 GUI VISUALIZATION
 
-# 🔄 Detection Pipeline
+<p align="center">
+  <sub>
+    From dataset preparation and model training to real-time multi-class detection.
+  </sub>
+</p>
+
+🔄 Detection Pipeline
 
 <p align="center">
   <img
@@ -76,17 +112,17 @@ GUI VISUALIZATION
 
 <p align="center">
   <kbd>DATASET</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>PREPARATION</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>YOLOv12</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>EVALUATION</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>WEIGHTS</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>INFERENCE</kbd>
-  →
+  &nbsp;→&nbsp;
   <kbd>GUI</kbd>
 </p>
 
@@ -95,4 +131,3 @@ GUI VISUALIZATION
     End-to-end workflow from dataset preparation to real-time object detection.
   </sub>
 </p>
-
