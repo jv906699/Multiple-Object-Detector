@@ -151,3 +151,34 @@ The detector was trained using a custom object-detection dataset prepared for mu
 | Output | Trained model weights |
 
 The trained weights are then used for inference and real-time visualization through the project's detection interface.
+
+# 📊 Model Performance
+
+The trained YOLOv12 detector was evaluated on the prepared object-detection dataset using standard object-detection metrics.
+
+## 📈 Evaluation Results
+
+| Metric | Result |
+|---|---:|
+| **mAP@0.5** | **93.8%** |
+| **mAP@0.5:0.95** | **57.8%** |
+
+### Understanding the Metrics
+
+| Metric | Description |
+|---|---|
+| **mAP@0.5** | Mean Average Precision calculated at an IoU threshold of 0.50 |
+| **mAP@0.5:0.95** | Mean Average Precision averaged across IoU thresholds from 0.50 to 0.95 |
+
+The results provide two complementary views of the detector's performance: detection quality at a fixed IoU threshold and performance across a broader range of localization thresholds.
+
+---
+
+## 🎯 Performance Summary
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=900&color=2563EB&center=true&vCenter=true&repeat=true&width=680&height=36&lines=mAP%40.5+%E2%86%92+93.8%25;mAP%40.5%3A0.95+%E2%86%92+57.8%25;YOLOv12+%E2%86%92+10-Class+Object+Detection"
+    alt="Model performance summary"
+  />
+</p>
