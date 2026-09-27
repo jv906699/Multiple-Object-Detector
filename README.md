@@ -252,24 +252,24 @@ Bounding Boxes + Labels
 ```
 # 📸 Detection Results
 
-The trained YOLOv12 model was evaluated across a variety of images containing different object classes and multi-object scenes. The inference results demonstrate the model's ability to localize and classify multiple objects within the same frame.
+The trained YOLOv12 model was evaluated across a variety of images containing different object classes and multi-object scenes. The inference results demonstrate the model's ability to localize and classify multiple objects within the same image.
 
 ## 🎯 Multi-Class Detection
 
 <p align="center">
   <img
-    src="YOUR_GITHUB_IMAGE_URL_1"
+    src="./results/val_batch0_pred%20(4).jpg"
     width="49%"
     alt="YOLOv12 multi-class detection results"
   />
   <img
-    src="YOUR_GITHUB_IMAGE_URL_2"
+    src="./results/val_batch1_pred%20(4).jpg"
     width="49%"
     alt="YOLOv12 multi-object detection results"
   />
 </p>
 
-The predictions include multiple classes such as **person, laptop, cell phone, cup, bottle, chair, book, remote, dining table, and handbag**, with bounding boxes and confidence scores displayed directly on the inference output.
+The predictions include multiple classes such as **person, laptop, cell phone, cup, bottle, chair, book, remote, dining table, and handbag**, with bounding boxes and confidence scores displayed directly on the inference outputs.
 
 ---
 
@@ -277,9 +277,9 @@ The predictions include multiple classes such as **person, laptop, cell phone, c
 
 <p align="center">
   <img
-    src="YOUR_GITHUB_CONFUSION_MATRIX_URL"
+    src="./results/confusion_matrix_normalized%20(4).png"
     width="85%"
-    alt="Normalized confusion matrix"
+    alt="Normalized confusion matrix for YOLOv12 detector"
   />
 </p>
 
@@ -293,6 +293,6 @@ The normalized confusion matrix provides a class-level view of the detector's pr
 |---|---|
 | Bounding Boxes | Localize detected objects within the image |
 | Class Labels | Identify the predicted object class |
-| Confidence Score | Display the model's confidence for each detection |
-| Multi-Object Detection | Detect multiple objects within the same frame |
+| Confidence Scores | Display the model's confidence for each detection |
+| Multi-Object Detection | Detect multiple objects within the same image |
 | Class-Level Evaluation | Analyze prediction behavior using the confusion matrix |
