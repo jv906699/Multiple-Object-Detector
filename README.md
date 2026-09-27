@@ -296,3 +296,30 @@ The normalized confusion matrix provides a class-level view of the detector's pr
 | Confidence Scores | Display the model's confidence for each detection |
 | Multi-Object Detection | Detect multiple objects within the same image |
 | Class-Level Evaluation | Analyze prediction behavior using the confusion matrix |
+
+# 📁 Project Structure
+
+The repository contains the trained YOLOv12 model, inference application, dataset configuration, evaluation results, and supporting project documentation.
+
+```text
+Multiple-Object-Detector/
+│
+├── 📂 results/
+│   ├── 📊 confusion_matrix (4).png
+│   ├── 📊 confusion_matrix_normalized (4).png
+│   ├── 📈 BoxP_curve*.png
+│   ├── 📈 BoxR_curve*.png
+│   ├── 🖼️ train_batch*.jpg
+│   ├── 🖼️ val_batch*_labels*.jpg
+│   ├── 🖼️ val_batch*_pred*.jpg
+│   └── 📄 results.csv
+│
+├── 🤖 best.pt
+├── 🤖 last.pt
+├── ⚙️ data.yaml
+├── 🏷️ classes.txt
+├── 🖥️ detector_gui.py
+├── 🎥 new test 1.mp4
+├── 📄 Project Introduction.pdf
+│
+└── 📖 README.md
