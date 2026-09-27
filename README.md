@@ -248,3 +248,51 @@ Trained YOLOv12 Weights
 Bounding Boxes + Labels
           ↓
       GUI Display
+
+```
+# 📸 Detection Results
+
+The trained YOLOv12 model was evaluated across a variety of images containing different object classes and multi-object scenes. The inference results demonstrate the model's ability to localize and classify multiple objects within the same frame.
+
+## 🎯 Multi-Class Detection
+
+<p align="center">
+  <img
+    src="YOUR_GITHUB_IMAGE_URL_1"
+    width="49%"
+    alt="YOLOv12 multi-class detection results"
+  />
+  <img
+    src="YOUR_GITHUB_IMAGE_URL_2"
+    width="49%"
+    alt="YOLOv12 multi-object detection results"
+  />
+</p>
+
+The predictions include multiple classes such as **person, laptop, cell phone, cup, bottle, chair, book, remote, dining table, and handbag**, with bounding boxes and confidence scores displayed directly on the inference output.
+
+---
+
+## 📊 Confusion Matrix
+
+<p align="center">
+  <img
+    src="YOUR_GITHUB_CONFUSION_MATRIX_URL"
+    width="85%"
+    alt="Normalized confusion matrix"
+  />
+</p>
+
+The normalized confusion matrix provides a class-level view of the detector's predictions across the evaluated classes, showing the distribution of correct predictions and class-level confusion.
+
+---
+
+## 🔎 Detection Output
+
+| Output | Description |
+|---|---|
+| Bounding Boxes | Localize detected objects within the image |
+| Class Labels | Identify the predicted object class |
+| Confidence Score | Display the model's confidence for each detection |
+| Multi-Object Detection | Detect multiple objects within the same frame |
+| Class-Level Evaluation | Analyze prediction behavior using the confusion matrix |
