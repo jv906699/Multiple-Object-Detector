@@ -96,3 +96,58 @@ GUI VISUALIZATION
     End-to-end workflow from dataset preparation to real-time object detection.
   </sub>
 </p>
+
+# 🧠 Dataset & Training
+
+The detector was trained using a custom object-detection dataset prepared for multi-class YOLO training.
+
+## 📦 Dataset Overview
+
+| Dataset Property | Details |
+|---|---|
+| 🖼️ Total Images | 17,542 |
+| 🏷️ Detection Classes | 10 |
+| 🤖 Model Architecture | YOLOv12 |
+| 🧠 Training Framework | PyTorch |
+| 🔥 Training Duration | 50 epochs |
+| 📦 Dataset Format | YOLO-compatible object detection dataset |
+
+---
+
+## 🔧 Training Workflow
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=850&color=2563EB&center=true&vCenter=true&repeat=true&width=760&height=36&lines=DATASET+COLLECTION+%E2%86%92+ANNOTATION;ANNOTATION+%E2%86%92+DATASET+PREPARATION;DATASET+PREPARATION+%E2%86%92+YOLOv12+TRAINING;YOLOv12+TRAINING+%E2%86%92+MODEL+EVALUATION;MODEL+EVALUATION+%E2%86%92+TRAINED+MODEL+WEIGHTS"
+    alt="YOLOv12 training workflow"
+  />
+</p>
+
+<p align="center">
+  <kbd>DATASET</kbd>
+  &nbsp;→&nbsp;
+  <kbd>ANNOTATION</kbd>
+  &nbsp;→&nbsp;
+  <kbd>PREPARATION</kbd>
+  &nbsp;→&nbsp;
+  <kbd>TRAINING</kbd>
+  &nbsp;→&nbsp;
+  <kbd>EVALUATION</kbd>
+  &nbsp;→&nbsp;
+  <kbd>WEIGHTS</kbd>
+</p>
+
+---
+
+## ⚙️ Training Configuration
+
+| Parameter | Configuration |
+|---|---|
+| Model | YOLOv12 |
+| Framework | PyTorch |
+| Dataset Size | 17,542 images |
+| Number of Classes | 10 |
+| Training Epochs | 50 |
+| Output | Trained model weights |
+
+The trained weights are then used for inference and real-time visualization through the project's detection interface.
