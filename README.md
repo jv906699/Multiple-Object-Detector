@@ -182,3 +182,69 @@ The results provide two complementary views of the detector's performance: detec
     alt="Model performance summary"
   />
 </p>
+
+# 🖥️ Real-Time Detection & GUI
+
+The trained YOLOv12 weights can be used for real-time object detection through the project's inference application.
+
+The detection interface provides a visual way to run the trained model and inspect its predictions on incoming frames.
+
+## 🔍 Inference Workflow
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=850&color=2563EB&center=true&vCenter=true&repeat=true&width=760&height=36&lines=LOAD+TRAINED+WEIGHTS+%E2%86%92+INPUT+FRAME;INPUT+FRAME+%E2%86%92+YOLOv12+INFERENCE;YOLOv12+INFERENCE+%E2%86%92+OBJECT+DETECTIONS;OBJECT+DETECTIONS+%E2%86%92+BOUNDING+BOXES+%2B+LABELS;ANNOTATED+FRAME+%E2%86%92+REAL-TIME+GUI+DISPLAY"
+    alt="Real-time detection workflow"
+  />
+</p>
+
+<p align="center">
+  <kbd>WEIGHTS</kbd>
+  &nbsp;→&nbsp;
+  <kbd>INPUT</kbd>
+  &nbsp;→&nbsp;
+  <kbd>INFERENCE</kbd>
+  &nbsp;→&nbsp;
+  <kbd>DETECTIONS</kbd>
+  &nbsp;→&nbsp;
+  <kbd>VISUALIZATION</kbd>
+  &nbsp;→&nbsp;
+  <kbd>GUI</kbd>
+</p>
+
+---
+
+## 🎯 Detection Output
+
+For each processed frame, the detector can provide visual information such as:
+
+| Output | Purpose |
+|---|---|
+| Bounding Boxes | Localize detected objects |
+| Class Labels | Identify detected object classes |
+| Confidence Scores | Indicate model confidence |
+| Annotated Frames | Visualize detection results |
+| Multiple Detections | Detect multiple objects within the same frame |
+
+---
+
+## 🖥️ GUI-Based Inference
+
+The project includes a GUI-based interface for running the trained detector and visualizing model predictions.
+
+The interface provides a more accessible way to interact with the trained model without requiring the inference pipeline to be operated entirely from the command line.
+
+### Inference Flow
+
+```text
+Trained YOLOv12 Weights
+          ↓
+     Input Source
+          ↓
+    YOLOv12 Inference
+          ↓
+   Object Predictions
+          ↓
+Bounding Boxes + Labels
+          ↓
+      GUI Display
