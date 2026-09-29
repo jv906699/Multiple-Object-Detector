@@ -323,3 +323,31 @@ Multiple-Object-Detector/
 ├── 📄 Project Introduction.pdf
 │
 └── 📖 README.md
+
+```
+
+# ⚙️ Installation & Usage
+
+## 🧩 Requirements
+
+The GUI application is built with Python and uses the following libraries:
+
+| Package | Purpose |
+|---|---|
+| `ultralytics` | YOLO model loading and inference |
+| `opencv-python` | Camera access and frame processing |
+| `Pillow` | Image conversion and GUI image display |
+| `pandas` | Recording detection results to CSV |
+| `tkinter` | Graphical user interface |
+
+Python standard-library modules such as `threading`, `datetime`, `collections`, and `os` are also used by the application.
+
+---
+
+## 📦 Installation
+
+Clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/jv906699/Multiple-Object-Detector.git
+cd Multiple-Object-Detector
