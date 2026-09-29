@@ -351,3 +351,50 @@ Clone the repository and navigate into the project directory:
 ```bash
 git clone https://github.com/jv906699/Multiple-Object-Detector.git
 cd Multiple-Object-Detector
+
+```
+# 🛠️ Tech Stack
+
+<p align="center">
+  <kbd>PYTHON</kbd>
+  &nbsp;&nbsp;
+  <kbd>YOLOv12</kbd>
+  &nbsp;&nbsp;
+  <kbd>PYTORCH</kbd>
+  &nbsp;&nbsp;
+  <kbd>OPENCV</kbd>
+  &nbsp;&nbsp;
+  <kbd>TKINTER</kbd>
+  &nbsp;&nbsp;
+  <kbd>PILLOW</kbd>
+  &nbsp;&nbsp;
+  <kbd>PANDAS</kbd>
+</p>
+
+## 🧩 Technology Roles
+
+| Technology | Role in the Project |
+|---|---|
+| **Python** | Core application and inference logic |
+| **YOLOv12** | Object detection model |
+| **PyTorch** | Deep-learning framework used by the YOLO pipeline |
+| **OpenCV** | Camera access, frame capture, and video processing |
+| **Tkinter** | GUI application interface |
+| **Pillow** | Image conversion and GUI image rendering |
+| **Pandas** | Detection-result data recording and CSV generation |
+
+---
+
+# 🚀 Project Capabilities
+
+| Capability | Implementation |
+|---|---|
+| 🎯 Multi-Class Detection | Detect multiple object classes within the same frame |
+| 📦 Custom Trained Model | Uses trained YOLO `.pt` weights |
+| 📹 Real-Time Camera Input | Processes frames from the default camera |
+| 🖼️ Detection Visualization | Displays annotated frames with bounding boxes |
+| 📊 Live Detection Summary | Shows detected classes, counts, and average confidence |
+| 💾 Result Recording | Saves detection records to CSV |
+| 🎥 Video Recording | Saves annotated detection output as MP4 |
+| 🖥️ Desktop GUI | Provides a graphical interface for operating the detector |
+| 🔄 Model Selection | Allows users to load a YOLO `.pt` model through the GUI |
