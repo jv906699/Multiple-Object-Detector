@@ -398,3 +398,29 @@ cd Multiple-Object-Detector
 | 🎥 Video Recording | Saves annotated detection output as MP4 |
 | 🖥️ Desktop GUI | Provides a graphical interface for operating the detector |
 | 🔄 Model Selection | Allows users to load a YOLO `.pt` model through the GUI |
+
+# 📄 Project Documentation
+
+The project includes a detailed project report covering the development and implementation of the Multiple Object Detector.
+
+<p align="center">
+  <a href="./Project%20Introduction.pdf">
+    <kbd>📄 VIEW PROJECT REPORT</kbd>
+  </a>
+</p>
+
+---
+
+# 🔗 Project Resources
+
+<p align="center">
+  <a href="https://github.com/jv906699/Multiple-Object-Detector">
+    <kbd>⭐ VIEW SOURCE CODE</kbd>
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    Multiple Object Detector · YOLOv12 · PyTorch · Computer Vision
+  </sub>
+</p>
